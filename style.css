@@ -1,0 +1,48 @@
+.mycanvas{
+    background-color: aquamarine;
+}
+.mine{
+    background-color: blue;
+    color: white;
+    size:60px;
+
+    font-size: 30px;
+    transition: 0.2s;
+    background-origin: padding-box;
+    border-radius: 20px;
+    border-style: solid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align-last: center;
+    
+    
+}
+.mine:hover{
+    background-color: red;
+}
+
+#hi1{
+    color: rgb(233, 226, 226);
+    background-color: rgb(18, 18, 18);
+    border-radius: 15px;
+    
+}
+
+#hi1:hover{
+
+    color: rgb(116, 115, 117);
+    background-color: rgb(7, 7, 7);
+    font:bold;
+}
+#hi{
+    border-radius: 120px;
+    border: 6px solid rgb(148, 214, 154);
+    width:100px;
+    height:100px;
+
+}
+#hi:hover{
+    color: aquamarine;
+    border-color: rgb(9, 245, 84);
+    width: 120px;
+    height: 120px;
+}
