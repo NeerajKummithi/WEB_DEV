@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    min-height: 200vh;
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+ul{
+        display: flex;
+        /* border-radius: 10px; */
+        background-color: rgb(209, 13, 209);
+}
+.n1 ul li{
+    list-style: none;
+    padding: 5px 5px;
+    margin: 5px;
+    color: white;
+    border-radius:5px;
+    background-color: rgb(235, 106, 235);
+}
+
+.d1{
+    background-color: green;
+    display: flex;
+}
+
+
+
+main .d1{
+    width: 80vw;
+    height: 60vh;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+        border-radius: 10px;
+
+}
+
+main .d1 .d2{
+    color:rgb(184, 210, 232);
+    background-color:rgb(11, 127, 228);
+    position: relative;
+        width: 50%;
+    height: 100%;
+    margin: 10px 10px;
+    /* display: flex; */
+        display: flex;
+            border-radius: 10px;
+
+}
+
+p{
+    padding: 10px;
+    font-size: 15px;
+
+}
+main .d1 .d3{
+    color: rgb(150, 160, 198);
+    background-color: rgb(21, 56, 194);
+     position: relative;
+        width: 50%;
+    height: 100%;
+    /* display: flex; */
+    display: flex;
+    margin: 10px 10px;
+    border-radius: 10px;
+}
+
+main .img{
+    position: fixed;
+    bottom: 20px;
+    width: 60px;
+    /* height: 10px; */
+    right: 20px;
+    padding: 0;
+}
+
+main .d4{
+    background-color: black;
+    color: white;
+    width: 80vw;
+    margin: 20px;
+    text-align:center;
+    height: 150px;
+    border-radius: 100px;
+    font-size: x-large;
+
+}
+
+h3{
+    padding: 30px;
+    font-size: xx-large;
+}
+
+footer .d5{
+    background-color: rgb(229, 79, 194);
+    position: sticky;
+    bottom: 0px;
+}
