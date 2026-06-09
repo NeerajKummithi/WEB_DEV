@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.n1{
+    display: flex;
+    align-items: center;
+    padding: 20px 60px;
+    border: 1px solid gray;
+    margin: 10px;
+    position: sticky;
+    background-color: rgb(225, 222, 222);
+}
+
+span{
+    font-size:10px;
+}
+.d1{
+    margin-right: 50px;
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+}
+.u1{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.b1{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(233, 181, 90);
+}
+.d2{
+    margin-left: 20px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-left: auto;
+}
+.d2 span{
+    font-size: large;
+}
+
+.n1 .d2 .s2{
+    font-size: xx-large;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 20vh;
+    font-size:25px;
+    /* min-width: 50vw; */
+
+}
+main div{
+    main div{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin: px ;
+    padding: 20px;
+    text-align: center;
+    width: 600px;
+}
+}
+main div h1{
+    margin: 10px 300px;
+
+}
+main div p{
+    margin: 10px 150px;
+    margin: 10px;
+
+}
+
+
+.b2{
+    display: inline;
+    margin: 20px 450px;
+     padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(92, 169, 247);
+    color: white;
+}
+
+.b1:hover{
+    background-color: rgb(233, 152, 13);
+}
+
+.b2:hover{
+    background-color: rgb(10, 167, 240);
+}
+

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise-8</title>
+    <style>
+        .d1{
+            width: 60vw;
+            height:  40vh;
+            background-color: rgb(238, 178, 189);
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+        }
+
+
+        .d1 .s1{
+            width: 50px;
+            height: 50px;
+            background-color: rgb(95, 95, 233);
+            border-radius: 50%;
+            animation: bounce1  ease-in 5s infinite alternate-reverse;
+            border: 2px solid black;
+            /* animation-play-state: paused; */
+            
+        }
+
+        @keyframes bounce1 {
+            0%{
+                transform: translate(0px,0px);
+            }
+            10%{
+                transform: translate(50px,-75px);
+            }
+            20%{
+                transform: translate(100px,0px);
+            }
+            30%{
+                transform: translate(150px,-75px);
+            }
+            40%{
+                transform: translate(200px,0px);
+            }
+            50%{
+                transform: translate(250px,-75px);
+            }
+            60%{
+                transform: translate(300px,0px);
+            }
+            70%{
+                transform: translate(350px,-75px);
+            }
+            80%{
+                transform: translate(400px,0px);
+            }
+            90%{
+                transform: translate(450px,-75px);
+            }
+            100%{
+                transform: translate(500px,0px);
+            }
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="d1">
+        <div class="s1"></div>
+    </div>
+</body>
+</html>

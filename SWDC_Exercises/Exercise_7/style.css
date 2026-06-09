@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.d1{
+    margin: 0;
+    padding: 40px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    gap: 30px;
+    font-size: xx-large;
+    width: 100vw;
+
+}
+
+.d1 button{
+    border: none;
+    background-color: white;
+    font-size: larger;
+}
+
+.d2{
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 30px; */
+    border: none;
+    background-color: rgb(229, 227, 227);
+    border-radius:  50px;
+    padding: 15px 25px;
+}
+
+.d1 span{
+   font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.d2 .b2{
+    background-color: rgb(215, 14, 135);
+    color: white;
+    padding: 5px 15px;
+    border-radius: 100px;
+    font-size: xx-large;
+}
+
+.d2 .s1{
+    font-size: 25px;
+}
+.d2 span{
+    font-size: 15px;
+} 
+.d4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.d4 .b3{
+    background-color: black;
+    color: white;
+    padding: 30px;
+    border-radius: 100px;
+    font-size: x-large;
+}
+
+.b3:hover{
+    background-color: rgb(51, 51, 51);
+}
+
+main{
+    
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(3,1fr);
+    /* grid-template-rows: 300px 300px 300px; */
+    gap: 10px;
+
+}
+
+@media (max-width: 760px){
+    .sd1{
+        grid-template-columns: 1fr;
+    }
+}
+
+.sd1{
+        border:1px solid  rgb(190, 190, 190);
+    background-color: rgb(221, 221, 221);
+        width: 300px;
+        height: 300px;
+        border-radius: 20px;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+}
+.sd2{
+    font-size: xx-large;
+
+}
+
+.i1{
+    border: 1px solid rgb(190, 189, 189);
+    width: 260px;
+    height: 200px;
+    border-radius:20px ;
+    margin: 18px;
+    /* padding: 10px; */
+}
